@@ -51,7 +51,16 @@ I currently pursue a PhD degree in the field of deep learning under the supervis
 
 My Master's degree program was built around data technologies, artificial intelligence and their mathematical and computational foundations. I graduated #emph[summa cum laude] with the congratulations of the examination committee (top 1%) and received two awards for my Master's thesis, titled "Arbitrary Marginal Neural Ratio Estimation for Likelihood-free Inference".
 
+= #icon("briefcase", solid: true) Work
+
+=== Research Internship
+#icon("calendar") Sep 2024 -- Jan 2025 #h(0.25cm) #icon("landmark") Flatiron Institute #h(0.25cm) #icon("location-dot") New York, USA
+
+The goal of this internship was to improve and accelerate physics simulations using deep learning methods, including latent representation techniques and generative models. The associated publication is currently under peer review.
+
 = #icon("pen") Publications
+
+#v(0.5em)
 
 #text[
   #show link: set text(fill: blue)
@@ -74,8 +83,6 @@ My Master's degree program was built around data technologies, artificial intell
 
 Since 2022, I am a recurrent peer-reviewer for machine learning journals, conferences and workshops such as NeurIPS, ICML, ICLR, AISTATS and TMLR.
 
-#pagebreak()
-
 = #icon("trophy") Honors & Awards
 
 #v(0.5em)
@@ -83,34 +90,34 @@ Since 2022, I am a recurrent peer-reviewer for machine learning journals, confer
 - Research fellow grant -- F.R.S.-FNRS (2022)
 - Best Master's thesis award -- AIM (2021)
 - Best Master's thesis award -- AILg & NRB (2021)
-- Pisart scholarship -- University of Liège (2016)
+// - Pisart scholarship -- University of Liège (2016)
 - National Physics olympiad 3#super[rd] laureate -- ABPPC (2016)
-- National Chemistry olympiad 7#super[th] laureate -- ACLg (2015)
+// - National Chemistry olympiad 7#super[th] laureate -- ACLg (2015)
 
 = #icon("code") Software
 
 === Azula
-#icon("calendar") July 2024 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/azlua", "probabilists/azlua") #h(0.25cm) #icon("star", solid: true) 85
+#icon("calendar") July 2024 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/azlua", "probabilists/azlua") #h(0.25cm) #icon("star", solid: true) 101
 
 Azula is a Python package that implements diffusion models in PyTorch. Its goal is to unify the different formalisms and notations of the generative diffusion models literature into a single, convenient and hackable interface.
 
 === Inox
-#icon("calendar") Dec 2023 #h(0.25cm) #icon("github") #link("https://github.com/francois-rozet/inox", "francois-rozet/inox") #h(0.25cm) #icon("star", solid: true) 30
+#icon("calendar") Dec 2023 #h(0.25cm) #icon("github") #link("https://github.com/francois-rozet/inox", "francois-rozet/inox") #h(0.25cm) #icon("star", solid: true) 34
 
 Inox is a minimal JAX library for neural networks with an intuitive PyTorch-like syntax. Modules are represented as PyTrees, which enables complex architectures, easy manipulations, and functional transformations.
 
 === Zuko
-#icon("calendar") Oct 2022 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/zuko", "probabilists/zuko") #h(0.25cm) #icon("star", solid: true) 324
+#icon("calendar") Oct 2022 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/zuko", "probabilists/zuko") #h(0.25cm) #icon("star", solid: true) 380
 
 Zuko is a Python package that implements normalizing ﬂows in PyTorch. It relies heavily on PyTorch's built-in distributions and transformations, which makes the implementation concise, easy to understand and extend.
 
-=== LAMPE
-#icon("calendar") Dec 2021 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/lampe", "probabilists/lampe") #h(0.25cm) #icon("star", solid: true) 119
+// === LAMPE
+// #icon("calendar") Dec 2021 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/lampe", "probabilists/lampe") #h(0.25cm) #icon("star", solid: true) 127
 
-LAMPE is a Python package that focuses on amortized estimation of the posterior distribution of simulators, without relying on explicit likelihood functions. The package provides PyTorch implementations of modern amortized simulation-based inference algorithms like neural ratio estimation (NRE), neural posterior estimation (NPE) and more.
+// LAMPE is a Python package that focuses on amortized estimation of the posterior distribution of simulators, without relying on explicit likelihood functions. The package provides PyTorch implementations of modern amortized simulation-based inference algorithms like neural ratio estimation (NRE), neural posterior estimation (NPE) and more.
 
 === PIQA
-#icon("calendar") Oct 2020 #h(0.25cm) #icon("github") #link("https://github.com/francois-rozet/piqa", "francois-rozet/piqa") #h(0.25cm) #icon("star", solid: true) 405
+#icon("calendar") Oct 2020 #h(0.25cm) #icon("github") #link("https://github.com/francois-rozet/piqa", "francois-rozet/piqa") #h(0.25cm) #icon("star", solid: true) 418
 
 PIQA is a collection of PyTorch metrics for image quality assessment in various image processing tasks such as generation, denoising, super-resolution, interpolation, etc. It focuses on the eﬃciency, conciseness and understandability of its (sub-)modules, such that anyone can easily reuse and/or adapt them to its needs
 

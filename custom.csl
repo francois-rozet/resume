@@ -40,6 +40,10 @@
   </citation>
   <!-- Bibliography -->
   <bibliography entry-spacing="0" second-field-align="flush">
+    <sort>
+      <key variable="issued" sort="descending"/>
+      <key variable="author" />
+    </sort>
     <layout>
       <text variable="citation-number" prefix="[" suffix="]"/>
       <text macro="author" suffix=". "/>
