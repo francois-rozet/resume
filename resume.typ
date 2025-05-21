@@ -43,7 +43,7 @@
 === PhD in Deep Learning
 #icon("calendar") Sep 2021 -- Present #h(0.25cm) #icon("landmark") University of Liège #h(0.25cm) #icon("location-dot") Belgium
 
-I currently pursue a PhD degree in the field of deep learning under the supervision of Prof. Gilles LOUPPE. My research consists in developing and applying deep learning methods to Bayesian inference problems in large-scale dynamical systems (oceans, atmospheres, molecules, ...). My work lies at the intersection of many subjects, most notably generative modeling, inverse problems and density estimation.
+I currently pursue a PhD degree in the field of deep learning under the supervision of Prof. Gilles LOUPPE. My research consists in developing and applying deep learning methods to Bayesian inference problems in large-scale dynamical systems (oceans, atmospheres, molecules, ...). My work lies at the intersection of many subjects, most notably generative modeling, inverse problems and physics emulation.
 
 === MSc in Data Science and Engineering
 
