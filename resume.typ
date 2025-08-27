@@ -64,10 +64,12 @@ The goal of this internship was to improve and accelerate physics simulations us
 
 #text[
   #show link: set text(fill: blue)
-  #show regex("François Rozet"): set text(weight: "regular", style: "italic")
+  #show regex("Rozet"): set text(weight: "regular", style: "italic")
 
   #bibliography("publications.bib", title: none, full: true, style: "custom.csl")
 ]
+
+#pagebreak()
 
 = #icon("comment", solid: true) Talks
 
@@ -97,7 +99,7 @@ Since 2022, I am a recurrent peer-reviewer for machine learning journals, confer
 = #icon("code") Software
 
 === Azula
-#icon("calendar") July 2024 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/azlua", "probabilists/azlua") #h(0.25cm) #icon("star", solid: true) 101
+#icon("calendar") July 2024 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/azula", "probabilists/azula") #h(0.25cm) #icon("star", solid: true) 107
 
 Azula is a Python package that implements diffusion models in PyTorch. Its goal is to unify the different formalisms and notations of the generative diffusion models literature into a single, convenient and hackable interface.
 
@@ -107,7 +109,7 @@ Azula is a Python package that implements diffusion models in PyTorch. Its goal 
 Inox is a minimal JAX library for neural networks with an intuitive PyTorch-like syntax. Modules are represented as PyTrees, which enables complex architectures, easy manipulations, and functional transformations.
 
 === Zuko
-#icon("calendar") Oct 2022 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/zuko", "probabilists/zuko") #h(0.25cm) #icon("star", solid: true) 380
+#icon("calendar") Oct 2022 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/zuko", "probabilists/zuko") #h(0.25cm) #icon("star", solid: true) 402
 
 Zuko is a Python package that implements normalizing ﬂows in PyTorch. It relies heavily on PyTorch's built-in distributions and transformations, which makes the implementation concise, easy to understand and extend.
 
@@ -117,7 +119,7 @@ Zuko is a Python package that implements normalizing ﬂows in PyTorch. It relie
 // LAMPE is a Python package that focuses on amortized estimation of the posterior distribution of simulators, without relying on explicit likelihood functions. The package provides PyTorch implementations of modern amortized simulation-based inference algorithms like neural ratio estimation (NRE), neural posterior estimation (NPE) and more.
 
 === PIQA
-#icon("calendar") Oct 2020 #h(0.25cm) #icon("github") #link("https://github.com/francois-rozet/piqa", "francois-rozet/piqa") #h(0.25cm) #icon("star", solid: true) 418
+#icon("calendar") Oct 2020 #h(0.25cm) #icon("github") #link("https://github.com/francois-rozet/piqa", "francois-rozet/piqa") #h(0.25cm) #icon("star", solid: true) 425
 
 PIQA is a collection of PyTorch metrics for image quality assessment in various image processing tasks such as generation, denoising, super-resolution, interpolation, etc. It focuses on the eﬃciency, conciseness and understandability of its (sub-)modules, such that anyone can easily reuse and/or adapt them to its needs
 
@@ -156,13 +158,13 @@ PIQA is a collection of PyTorch metrics for image quality assessment in various 
 - Data structure and algorithms -- Prof. Pierre GEURTS (2021-2022)
 - Functional programming -- Prof. Christophe DEBRUYNE (2021-2022)
 
-=== Student instructor
-#icon("calendar") Sep 2017 -- Jul 2021 #h(0.25cm) #icon("landmark") University of Liège
+// === Student instructor
+// #icon("calendar") Sep 2017 -- Jul 2021 #h(0.25cm) #icon("landmark") University of Liège
 
-- Introduction to machine learning -- Prof. Pierre GEURTS (2020-2021)
-- Introduction to artificial intelligence -- Prof. Gilles LOUPPE (2020-2021)
-- Elements of statistics -- Prof. Louis WEHENKEL (2019-2020)
-- Applied mathematics -- Prof. Christophe GEUZAINE (2019-2020)
+// - Introduction to machine learning -- Prof. Pierre GEURTS (2020-2021)
+// - Introduction to artificial intelligence -- Prof. Gilles LOUPPE (2020-2021)
+// - Elements of statistics -- Prof. Louis WEHENKEL (2019-2020)
+// - Applied mathematics -- Prof. Christophe GEUZAINE (2019-2020)
 // - Introduction to numerical methods -- Prof. Quentin LOUVEAUX (2018-2019)
 // - Electricity and electromagnetism -- Prof. Hervé CAPS (2017-2019)
 // - Newtonian mechanics -- Prof. Hervé CAPS (2017-2019)
