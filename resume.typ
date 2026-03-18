@@ -1,4 +1,4 @@
-#import "@preview/fontawesome:0.2.1": fa-icon
+#import "@preview/fontawesome:0.6.0": fa-icon
 
 // Document
 #set document(title: "Resume", author: "François Rozet")
@@ -24,7 +24,7 @@
   stack(
     text(size: 2.5em, [François #text(weight: "medium", [ROZET])]),
     v(0.35cm),
-    text(size: 1.25em, [PhD student #sym.dot.c Machine learning #sym.dot.c Developer]),
+    text(size: 1.25em, [PhD #sym.dot.c Machine Learning #sym.dot.c Scientist #sym.dot.c Engineer]),
     v(0.25cm),
     [
       #icon("google") #link("https://scholar.google.com/citations?user=C-WS1pwAAAAJ", [C-WS1pwAAAAJ])
@@ -33,7 +33,7 @@
       #h(0.5cm)
       #icon("twitter") #link("https://twitter.com/FrancoisRozet", [FrancoisRozet])
       #h(0.5cm)
-      #icon("envelope", solid: true) #link("mailto:francois.rozet@uliege.be", [francois.rozet\@uliege.be])
+      #icon("envelope", solid: true) #link("mailto:francois.rozet@outlook.com", [francois.rozet\@outlook.com])
     ],
   ),
 )
@@ -41,9 +41,9 @@
 = #icon("graduation-cap") Education
 
 === PhD in Deep Learning
-#icon("calendar") Sep 2021 -- Present #h(0.25cm) #icon("landmark") University of Liège #h(0.25cm) #icon("location-dot") Belgium
+#icon("calendar") Sep 2021 -- Jan 2026 #h(0.25cm) #icon("landmark") University of Liège #h(0.25cm) #icon("location-dot") Belgium
 
-I currently pursue a PhD degree in the field of deep learning under the supervision of Prof. Gilles LOUPPE. My research consists in developing and applying deep learning methods to Bayesian inference problems in large-scale dynamical systems (oceans, atmospheres, molecules, ...). My work lies at the intersection of many subjects, most notably generative modeling, inverse problems and physics emulation.
+The goal of my PhD, completed under the supervision of Prof. #link("https://glouppe.github.io/", "Gilles LOUPPE"), was to develop and apply deep learning methods to Bayesian inference problems in large-scale dynamical systems (oceans, atmospheres, molecules, ...). The contributions presented in my thesis lie at the intersection of many subjects, most notably generative modeling, inverse problems and physics emulation.
 
 === MSc in Data Science and Engineering
 
@@ -99,7 +99,7 @@ Since 2022, I am a recurrent peer-reviewer for machine learning journals, confer
 = #icon("code") Software
 
 === Azula
-#icon("calendar") July 2024 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/azula", "probabilists/azula") #h(0.25cm) #icon("star", solid: true) 107
+#icon("calendar") July 2024 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/azula", "probabilists/azula") #h(0.25cm) #icon("star", solid: true) 128
 
 Azula is a Python package that implements diffusion models in PyTorch. Its goal is to unify the different formalisms and notations of the generative diffusion models literature into a single, convenient and hackable interface.
 
@@ -109,7 +109,7 @@ Azula is a Python package that implements diffusion models in PyTorch. Its goal 
 Inox is a minimal JAX library for neural networks with an intuitive PyTorch-like syntax. Modules are represented as PyTrees, which enables complex architectures, easy manipulations, and functional transformations.
 
 === Zuko
-#icon("calendar") Oct 2022 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/zuko", "probabilists/zuko") #h(0.25cm) #icon("star", solid: true) 402
+#icon("calendar") Oct 2022 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/zuko", "probabilists/zuko") #h(0.25cm) #icon("star", solid: true) 450
 
 Zuko is a Python package that implements normalizing ﬂows in PyTorch. It relies heavily on PyTorch's built-in distributions and transformations, which makes the implementation concise, easy to understand and extend.
 
@@ -119,7 +119,7 @@ Zuko is a Python package that implements normalizing ﬂows in PyTorch. It relie
 // LAMPE is a Python package that focuses on amortized estimation of the posterior distribution of simulators, without relying on explicit likelihood functions. The package provides PyTorch implementations of modern amortized simulation-based inference algorithms like neural ratio estimation (NRE), neural posterior estimation (NPE) and more.
 
 === PIQA
-#icon("calendar") Oct 2020 #h(0.25cm) #icon("github") #link("https://github.com/francois-rozet/piqa", "francois-rozet/piqa") #h(0.25cm) #icon("star", solid: true) 425
+#icon("calendar") Oct 2020 #h(0.25cm) #icon("github") #link("https://github.com/francois-rozet/piqa", "francois-rozet/piqa") #h(0.25cm) #icon("star", solid: true) 434
 
 PIQA is a collection of PyTorch metrics for image quality assessment in various image processing tasks such as generation, denoising, super-resolution, interpolation, etc. It focuses on the eﬃciency, conciseness and understandability of its (sub-)modules, such that anyone can easily reuse and/or adapt them to its needs
 
@@ -135,7 +135,7 @@ PIQA is a collection of PyTorch metrics for image quality assessment in various 
       columns: (auto, auto),
       gutter: 1em,
       strong[French], [native],
-      strong[English], [proficient (C1, TOEFL 106)],
+      strong[English], [proficient (C1, TOEFL 106, PTE 90)],
       strong[Dutch], [elementary (A1)],
     )
   ],
@@ -151,10 +151,10 @@ PIQA is a collection of PyTorch metrics for image quality assessment in various 
 = #icon("book") Teaching
 
 === Teaching assistant
-#icon("calendar") Sep 2021 -- Present #h(0.25cm) #icon("landmark") University of Liège
+#icon("calendar") Sep 2021 -- Sep 2025 #h(0.25cm) #icon("landmark") University of Liège
 
-- Introduction to artificial intelligence -- Prof. Gilles LOUPPE (since 2021)
-- Deep learning -- Prof. Gilles LOUPPE (since 2021)
+- Introduction to artificial intelligence -- Prof. Gilles LOUPPE (2021-2025)
+- Deep learning -- Prof. Gilles LOUPPE (2021-2025)
 - Data structure and algorithms -- Prof. Pierre GEURTS (2021-2022)
 - Functional programming -- Prof. Christophe DEBRUYNE (2021-2022)
 
