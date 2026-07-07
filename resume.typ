@@ -48,7 +48,7 @@ I develop and apply generative modeling methods to the most challenging problems
 === Research Internship
 #icon("calendar") Sep 2024 -- Jan 2025 #h(0.25cm) #icon("landmark") Flatiron Institute #h(0.25cm) #icon("location-dot") New York, USA
 
-The goal of this internship was to improve and accelerate physics simulations using deep learning methods, including latent representation techniques and generative models. The associated publication is currently under peer review.
+The goal of this internship was to improve and accelerate physics simulations using deep learning methods, including latent representation techniques and generative models. The associated publication was accepted at NeurIPS 2025.
 
 = #icon("graduation-cap") Education
 
