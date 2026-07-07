@@ -38,25 +38,30 @@
   ),
 )
 
+= #icon("briefcase", solid: true) Work
+
+=== Research Scientist
+#icon("calendar") Jan 2026 -- Present #h(0.25cm) #icon("landmark") Ellison Institute of Technology #h(0.25cm) #icon("location-dot") Oxford, UK
+
+I develop and apply generative modeling methods to the most challenging problems in biomolecular sciences.
+
+=== Research Internship
+#icon("calendar") Sep 2024 -- Jan 2025 #h(0.25cm) #icon("landmark") Flatiron Institute #h(0.25cm) #icon("location-dot") New York, USA
+
+The goal of this internship was to improve and accelerate physics simulations using deep learning methods, including latent representation techniques and generative models. The associated publication is currently under peer review.
+
 = #icon("graduation-cap") Education
 
 === PhD in Deep Learning
 #icon("calendar") Sep 2021 -- Jan 2026 #h(0.25cm) #icon("landmark") University of Liège #h(0.25cm) #icon("location-dot") Belgium
 
-The goal of my PhD, completed under the supervision of Prof. #link("https://glouppe.github.io/", "Gilles LOUPPE"), was to develop and apply deep learning methods to Bayesian inference problems in large-scale dynamical systems (oceans, atmospheres, molecules, ...). The contributions presented in my thesis lie at the intersection of many subjects, most notably generative modeling, inverse problems and physics emulation.
+The goal of my PhD, completed under the supervision of Prof. #link("https://glouppe.github.io/", "Gilles LOUPPE"), was to develop and apply deep learning methods to Bayesian inference problems in large-scale dynamical systems (oceans, atmospheres, molecules, ...). The contributions presented in my thesis lie at the intersection of generative modeling, inverse problems and physics emulation.
 
 === MSc in Data Science and Engineering
 
 #icon("calendar") Sep 2019 -- Jul 2021 #h(0.25cm) #icon("landmark") University of Liège #h(0.25cm) #icon("location-dot") Belgium
 
 My Master's degree program was built around data technologies, artificial intelligence and their mathematical and computational foundations. I graduated #emph[summa cum laude] with the congratulations of the examination committee (top 1%) and received two awards for my Master's thesis, titled "Arbitrary Marginal Neural Ratio Estimation for Likelihood-free Inference".
-
-= #icon("briefcase", solid: true) Work
-
-=== Research Internship
-#icon("calendar") Sep 2024 -- Jan 2025 #h(0.25cm) #icon("landmark") Flatiron Institute #h(0.25cm) #icon("location-dot") New York, USA
-
-The goal of this internship was to improve and accelerate physics simulations using deep learning methods, including latent representation techniques and generative models. The associated publication is currently under peer review.
 
 = #icon("pen") Publications
 
