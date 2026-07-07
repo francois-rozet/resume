@@ -104,17 +104,17 @@ Since 2022, I am a recurrent peer-reviewer for machine learning journals, confer
 = #icon("code") Software
 
 === Azula
-#icon("calendar") July 2024 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/azula", "probabilists/azula") #h(0.25cm) #icon("star", solid: true) 128
+#icon("calendar") July 2024 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/azula", "probabilists/azula") #h(0.25cm) #icon("star", solid: true) 133
 
 Azula is a Python package that implements diffusion models in PyTorch. Its goal is to unify the different formalisms and notations of the generative diffusion models literature into a single, convenient and hackable interface.
 
 === Inox
-#icon("calendar") Dec 2023 #h(0.25cm) #icon("github") #link("https://github.com/francois-rozet/inox", "francois-rozet/inox") #h(0.25cm) #icon("star", solid: true) 34
+#icon("calendar") Dec 2023 #h(0.25cm) #icon("github") #link("https://github.com/francois-rozet/inox", "francois-rozet/inox") #h(0.25cm) #icon("star", solid: true) 36
 
 Inox is a minimal JAX library for neural networks with an intuitive PyTorch-like syntax. Modules are represented as PyTrees, which enables complex architectures, easy manipulations, and functional transformations.
 
 === Zuko
-#icon("calendar") Oct 2022 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/zuko", "probabilists/zuko") #h(0.25cm) #icon("star", solid: true) 450
+#icon("calendar") Oct 2022 #h(0.25cm) #icon("github") #link("https://github.com/probabilists/zuko", "probabilists/zuko") #h(0.25cm) #icon("star", solid: true) 463
 
 Zuko is a Python package that implements normalizing ﬂows in PyTorch. It relies heavily on PyTorch's built-in distributions and transformations, which makes the implementation concise, easy to understand and extend.
 
@@ -124,7 +124,7 @@ Zuko is a Python package that implements normalizing ﬂows in PyTorch. It relie
 // LAMPE is a Python package that focuses on amortized estimation of the posterior distribution of simulators, without relying on explicit likelihood functions. The package provides PyTorch implementations of modern amortized simulation-based inference algorithms like neural ratio estimation (NRE), neural posterior estimation (NPE) and more.
 
 === PIQA
-#icon("calendar") Oct 2020 #h(0.25cm) #icon("github") #link("https://github.com/francois-rozet/piqa", "francois-rozet/piqa") #h(0.25cm) #icon("star", solid: true) 434
+#icon("calendar") Oct 2020 #h(0.25cm) #icon("github") #link("https://github.com/francois-rozet/piqa", "francois-rozet/piqa") #h(0.25cm) #icon("star", solid: true) 440
 
 PIQA is a collection of PyTorch metrics for image quality assessment in various image processing tasks such as generation, denoising, super-resolution, interpolation, etc. It focuses on the eﬃciency, conciseness and understandability of its (sub-)modules, such that anyone can easily reuse and/or adapt them to its needs
 
